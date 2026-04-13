@@ -18,9 +18,7 @@ git checkout -b [name]: Creates and immediately switches to a new branch.
 git switch [name]: The modern alternative to checkout for switching branches.
 git merge [branch]: Integrates changes from a specified branch into the current one.
 git rebase [branch]: Reapplies commits on top of another base tip to maintain a linear history. 
-DEV Community
-DEV Community
- +8
+   
 4. Syncing with Remote Repositories
 git fetch: Downloads objects and refs from another repository without merging them into your current work.
 git pull: Fetches and immediately merges remote changes into your local branch.
