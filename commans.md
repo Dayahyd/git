@@ -5,9 +5,7 @@ git init: Initializes a new local repository in the current directory.
 git clone [url]: Creates a local copy of an existing remote repository, including its entire history.
 git remote add origin [url]: Connects your local repository to a remote server.
 git status: Shows the state of the working directory and staging area, highlighting modified or untracked files. 
-DEV Community
-DEV Community
- +5
+
 2. Development Workflow (Stage & Commit)
 git add [file]: Adds a specific file to the staging area; use git add . for all changes.
 git commit -m "[message]": Records your staged changes with a descriptive message to the local history.
