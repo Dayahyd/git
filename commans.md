@@ -23,18 +23,14 @@ git rebase [branch]: Reapplies commits on top of another base tip to maintain a 
 git fetch: Downloads objects and refs from another repository without merging them into your current work.
 git pull: Fetches and immediately merges remote changes into your local branch.
 git push: Uploads local commits to the remote repository, which often triggers CI/CD build pipelines. 
-DEV Community
-DEV Community
- +4
+   
 5. DevOps Special Operations
 git tag [tagname]: Marks specific points in history, such as release versions (e.g., v1.0.0), often used to trigger production deployments.
 git push --tags: Pushes all local tags to the remote server.
 git stash: Temporarily saves uncommitted changes so you can switch branches for urgent hotfixes without losing work.
 git cherry-pick [commit_id]: Applies a single specific commit from one branch to another, useful for porting critical bug fixes.
 git bisect: A debugging tool that uses binary search to find which commit introduced a bug. 
-DEV Community
-DEV Community
- +6
+   
 6. Reverting & Recovery
 git revert [commit_id]: Creates a new commit that undoes the changes of a previous commit; this is safer for public branches than resetting.
 git reset --hard [commit_id]: Resets the current branch to a specific commit and permanently deletes all local changes.
